@@ -1,0 +1,27 @@
+{
+  "name": "hapi",
+  "version": "1.0.0",
+  "description": "#### prerequisites - Node.js version >= 12.x",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Aldi Rifaldi Saputra",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onyxaqua2000/ILT-CC-02-BA.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onyxaqua2000/ILT-CC-02-BA/issues"
+  },
+  "homepage": "https://github.com/onyxaqua2000/ILT-CC-02-BA#readme"
+}
